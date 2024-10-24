@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42708ED7EDADDC96890423C1 /* Pods_Shoes_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946A0CA33836502184C00202 /* Pods_Shoes_App.framework */; };
 		9E7D1B402CC72E9400BCF5C1 /* Shoes_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D1B3F2CC72E9400BCF5C1 /* Shoes_AppApp.swift */; };
 		9E7D1B422CC72E9400BCF5C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D1B412CC72E9400BCF5C1 /* ContentView.swift */; };
 		9E7D1B442CC72E9500BCF5C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D1B432CC72E9500BCF5C1 /* Assets.xcassets */; };
 		9E7D1B472CC72E9500BCF5C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D1B462CC72E9500BCF5C1 /* Preview Assets.xcassets */; };
+		9E93B31A2CC9B98E0003976F /* HeaderBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93B3192CC9B98E0003976F /* HeaderBackground.swift */; };
+		9E93B31D2CC9C2FE0003976F /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93B31C2CC9C2FE0003976F /* ExtensionColor.swift */; };
+		9E93B31F2CC9C36D0003976F /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93B31E2CC9C36D0003976F /* ExtensionView.swift */; };
+		9E93B3212CC9C48D0003976F /* HomeMainCarouselCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E93B3202CC9C48D0003976F /* HomeMainCarouselCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1528281BD97721BA4AA6C668 /* Pods-Shoes-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoes-App.release.xcconfig"; path = "Target Support Files/Pods-Shoes-App/Pods-Shoes-App.release.xcconfig"; sourceTree = "<group>"; };
+		946A0CA33836502184C00202 /* Pods_Shoes_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoes_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7D1B3C2CC72E9400BCF5C1 /* Shoes-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoes-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7D1B3F2CC72E9400BCF5C1 /* Shoes_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoes_AppApp.swift; sourceTree = "<group>"; };
 		9E7D1B412CC72E9400BCF5C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E7D1B432CC72E9500BCF5C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E7D1B462CC72E9500BCF5C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E93B3192CC9B98E0003976F /* HeaderBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackground.swift; sourceTree = "<group>"; };
+		9E93B31C2CC9C2FE0003976F /* ExtensionColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionColor.swift; sourceTree = "<group>"; };
+		9E93B31E2CC9C36D0003976F /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		9E93B3202CC9C48D0003976F /* HomeMainCarouselCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainCarouselCard.swift; sourceTree = "<group>"; };
+		D6B432A9435F222AF266F115 /* Pods-Shoes-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoes-App.debug.xcconfig"; path = "Target Support Files/Pods-Shoes-App/Pods-Shoes-App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +38,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42708ED7EDADDC96890423C1 /* Pods_Shoes_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4436EACD7899E8A4EE52DA6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6B432A9435F222AF266F115 /* Pods-Shoes-App.debug.xcconfig */,
+				1528281BD97721BA4AA6C668 /* Pods-Shoes-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9E7D1B332CC72E9400BCF5C1 = {
 			isa = PBXGroup;
 			children = (
 				9E7D1B3E2CC72E9400BCF5C1 /* Shoes-App */,
 				9E7D1B3D2CC72E9400BCF5C1 /* Products */,
+				4436EACD7899E8A4EE52DA6D /* Pods */,
+				BF982FFF4C7E2BE00C8CD16C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +75,7 @@
 		9E7D1B3E2CC72E9400BCF5C1 /* Shoes-App */ = {
 			isa = PBXGroup;
 			children = (
+				9E93B3152CC9B9540003976F /* presentation */,
 				9E7D1B3F2CC72E9400BCF5C1 /* Shoes_AppApp.swift */,
 				9E7D1B412CC72E9400BCF5C1 /* ContentView.swift */,
 				9E7D1B432CC72E9500BCF5C1 /* Assets.xcassets */,
@@ -67,6 +92,57 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9E93B3152CC9B9540003976F /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9E93B3172CC9B96D0003976F /* ui */,
+				9E93B3162CC9B95A0003976F /* scenes */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		9E93B3162CC9B95A0003976F /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		9E93B3172CC9B96D0003976F /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				9E93B3182CC9B97A0003976F /* components */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		9E93B3182CC9B97A0003976F /* components */ = {
+			isa = PBXGroup;
+			children = (
+				9E93B31B2CC9C2E50003976F /* +extensions */,
+				9E93B3192CC9B98E0003976F /* HeaderBackground.swift */,
+				9E93B3202CC9C48D0003976F /* HomeMainCarouselCard.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		9E93B31B2CC9C2E50003976F /* +extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9E93B31C2CC9C2FE0003976F /* ExtensionColor.swift */,
+				9E93B31E2CC9C36D0003976F /* ExtensionView.swift */,
+			);
+			path = "+extensions";
+			sourceTree = "<group>";
+		};
+		BF982FFF4C7E2BE00C8CD16C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946A0CA33836502184C00202 /* Pods_Shoes_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +150,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E7D1B4A2CC72E9500BCF5C1 /* Build configuration list for PBXNativeTarget "Shoes-App" */;
 			buildPhases = (
+				A07FA8C8E094D85D29A2735A /* [CP] Check Pods Manifest.lock */,
 				9E7D1B382CC72E9400BCF5C1 /* Sources */,
 				9E7D1B392CC72E9400BCF5C1 /* Frameworks */,
 				9E7D1B3A2CC72E9400BCF5C1 /* Resources */,
@@ -132,13 +209,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A07FA8C8E094D85D29A2735A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shoes-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E7D1B382CC72E9400BCF5C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9E7D1B422CC72E9400BCF5C1 /* ContentView.swift in Sources */,
+				9E93B31F2CC9C36D0003976F /* ExtensionView.swift in Sources */,
+				9E93B31A2CC9B98E0003976F /* HeaderBackground.swift in Sources */,
+				9E93B3212CC9C48D0003976F /* HomeMainCarouselCard.swift in Sources */,
 				9E7D1B402CC72E9400BCF5C1 /* Shoes_AppApp.swift in Sources */,
+				9E93B31D2CC9C2FE0003976F /* ExtensionColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +372,7 @@
 		};
 		9E7D1B4B2CC72E9500BCF5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B432A9435F222AF266F115 /* Pods-Shoes-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +402,7 @@
 		};
 		9E7D1B4C2CC72E9500BCF5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1528281BD97721BA4AA6C668 /* Pods-Shoes-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
