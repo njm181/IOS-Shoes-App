@@ -9,37 +9,30 @@ import Foundation
 import SwiftUI
 
 struct HomeMainCarouselCard: View {
-    let url = URL(string: "https://assets.adidas.com/images/w_600,f_auto,q_auto/f8bc2c70b30940a7acda118f6fdde902_9366/Zapatillas_Running_Switch_Run_Negro_IF5720_01_standard.jpg")
+    
+    var productTitle: String
+    var productName: String
+    var productUrl: URL?
+    var buttonTitle: String
     
     var body: some View {
         VStack {
             HStack(alignment: .center) {
-                AsyncImage(url: url) { phase in
-                    switch phase {
-                    case .empty:
-                        ProgressView()
-                    case .success(let image):
-                        image
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: 180, height: 150)
-                            .clipped()
-                            .cornerRadius(20)
-                    case .failure:
-                        Image(systemName: "exclamationmark.triangle")
-                            .foregroundColor(.red)
-                    @unknown default:
-                        EmptyView()
-                    }
-                }
+                
+                ImageFromUrl(
+                    width: 180,
+                    height: 150,
+                    cornerRadius: 20,
+                    url: productUrl
+                )
                 
                 VStack(alignment: .center) {
                     VStack(alignment: .leading) {
-                        Text("Introducing")
+                        Text(productTitle)
                             .lineLimit(2)
                             .multilineTextAlignment(.leading)
                             .font(.subheadline)
-                        Text("Air Max 2090")
+                        Text(productName)
                             .lineLimit(2)
                             .multilineTextAlignment(.leading)
                             .font(.title2)
@@ -51,7 +44,7 @@ struct HomeMainCarouselCard: View {
 
                     VStack {
                         Button(action: {}) {
-                            Text("Buy now")
+                            Text(buttonTitle)
                                 .padding(.vertical, 8)
                                 .padding(.horizontal, 16)
                                 .foregroundColor(.white)
@@ -85,6 +78,11 @@ struct HomeMainCarouselCard: View {
 
 
 #Preview {
-    HomeMainCarouselCard()
+    HomeMainCarouselCard(
+        productTitle: "Introducing",
+        productName: "Air Max 2090",
+        productUrl: URL(string: "https://assets.adidas.com/images/w_600,f_auto,q_auto/f8bc2c70b30940a7acda118f6fdde902_9366/Zapatillas_Running_Switch_Run_Negro_IF5720_01_standard.jpg"),
+        buttonTitle: "Buy Now"
+    )
 }
 
