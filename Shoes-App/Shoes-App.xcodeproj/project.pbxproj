@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		42708ED7EDADDC96890423C1 /* Pods_Shoes_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946A0CA33836502184C00202 /* Pods_Shoes_App.framework */; };
+		9E6B8CA32CCE6C3500118A9A /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B8CA22CCE6C3500118A9A /* HomeScene.swift */; };
+		9E6B8CA62CCE6C7100118A9A /* HomeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B8CA52CCE6C7100118A9A /* HomeContent.swift */; };
 		9E7D1B402CC72E9400BCF5C1 /* Shoes_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D1B3F2CC72E9400BCF5C1 /* Shoes_AppApp.swift */; };
 		9E7D1B422CC72E9400BCF5C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D1B412CC72E9400BCF5C1 /* ContentView.swift */; };
 		9E7D1B442CC72E9500BCF5C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D1B432CC72E9500BCF5C1 /* Assets.xcassets */; };
@@ -21,11 +23,15 @@
 		9EC7CCCC2CCB1A74001A6F08 /* PromotionCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC7CCCB2CCB1A74001A6F08 /* PromotionCarousel.swift */; };
 		9EC7CCCF2CCB1B43001A6F08 /* HeaderPromotionCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC7CCCE2CCB1B43001A6F08 /* HeaderPromotionCarousel.swift */; };
 		9EC7CCD12CCB2E9C001A6F08 /* CardPromotionCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC7CCD02CCB2E9C001A6F08 /* CardPromotionCarousel.swift */; };
+		9ECC00872CCFAA0C007EE2EA /* HomeHeaderMainCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC00862CCFAA0C007EE2EA /* HomeHeaderMainCarousel.swift */; };
+		9ECC00892CCFB408007EE2EA /* ShortcutHorizontalCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC00882CCFB408007EE2EA /* ShortcutHorizontalCarousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1528281BD97721BA4AA6C668 /* Pods-Shoes-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoes-App.release.xcconfig"; path = "Target Support Files/Pods-Shoes-App/Pods-Shoes-App.release.xcconfig"; sourceTree = "<group>"; };
 		946A0CA33836502184C00202 /* Pods_Shoes_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoes_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6B8CA22CCE6C3500118A9A /* HomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		9E6B8CA52CCE6C7100118A9A /* HomeContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContent.swift; sourceTree = "<group>"; };
 		9E7D1B3C2CC72E9400BCF5C1 /* Shoes-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoes-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7D1B3F2CC72E9400BCF5C1 /* Shoes_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoes_AppApp.swift; sourceTree = "<group>"; };
 		9E7D1B412CC72E9400BCF5C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		9EC7CCCB2CCB1A74001A6F08 /* PromotionCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCarousel.swift; sourceTree = "<group>"; };
 		9EC7CCCE2CCB1B43001A6F08 /* HeaderPromotionCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderPromotionCarousel.swift; sourceTree = "<group>"; };
 		9EC7CCD02CCB2E9C001A6F08 /* CardPromotionCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPromotionCarousel.swift; sourceTree = "<group>"; };
+		9ECC00862CCFAA0C007EE2EA /* HomeHeaderMainCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderMainCarousel.swift; sourceTree = "<group>"; };
+		9ECC00882CCFB408007EE2EA /* ShortcutHorizontalCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutHorizontalCarousel.swift; sourceTree = "<group>"; };
 		D6B432A9435F222AF266F115 /* Pods-Shoes-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoes-App.debug.xcconfig"; path = "Target Support Files/Pods-Shoes-App/Pods-Shoes-App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +70,15 @@
 				1528281BD97721BA4AA6C668 /* Pods-Shoes-App.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E6B8CA42CCE6C6500118A9A /* home */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B8CA22CCE6C3500118A9A /* HomeScene.swift */,
+				9E6B8CA52CCE6C7100118A9A /* HomeContent.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 		9E7D1B332CC72E9400BCF5C1 = {
@@ -114,6 +131,7 @@
 		9E93B3162CC9B95A0003976F /* scenes */ = {
 			isa = PBXGroup;
 			children = (
+				9E6B8CA42CCE6C6500118A9A /* home */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -149,8 +167,9 @@
 			children = (
 				9EC7CCCD2CCB1AC6001A6F08 /* atoms */,
 				9E93B3202CC9C48D0003976F /* HomeMainCarouselCard.swift */,
-				9EC7CCC92CCB16B6001A6F08 /* Shortcut.swift */,
 				9EC7CCCB2CCB1A74001A6F08 /* PromotionCarousel.swift */,
+				9ECC00862CCFAA0C007EE2EA /* HomeHeaderMainCarousel.swift */,
+				9ECC00882CCFB408007EE2EA /* ShortcutHorizontalCarousel.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -158,6 +177,7 @@
 		9EC7CCCD2CCB1AC6001A6F08 /* atoms */ = {
 			isa = PBXGroup;
 			children = (
+				9EC7CCC92CCB16B6001A6F08 /* Shortcut.swift */,
 				9E93B3192CC9B98E0003976F /* HeaderBackground.swift */,
 				9EC7CCC62CCB12B6001A6F08 /* ImageFromUrl.swift */,
 				9EC7CCCE2CCB1B43001A6F08 /* HeaderPromotionCarousel.swift */,
@@ -278,9 +298,13 @@
 				9EC7CCCF2CCB1B43001A6F08 /* HeaderPromotionCarousel.swift in Sources */,
 				9E93B3212CC9C48D0003976F /* HomeMainCarouselCard.swift in Sources */,
 				9E7D1B402CC72E9400BCF5C1 /* Shoes_AppApp.swift in Sources */,
+				9ECC00872CCFAA0C007EE2EA /* HomeHeaderMainCarousel.swift in Sources */,
 				9EC7CCCA2CCB16B6001A6F08 /* Shortcut.swift in Sources */,
+				9E6B8CA32CCE6C3500118A9A /* HomeScene.swift in Sources */,
 				9EC7CCC72CCB12B6001A6F08 /* ImageFromUrl.swift in Sources */,
 				9E93B31D2CC9C2FE0003976F /* ExtensionColor.swift in Sources */,
+				9ECC00892CCFB408007EE2EA /* ShortcutHorizontalCarousel.swift in Sources */,
+				9E6B8CA62CCE6C7100118A9A /* HomeContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

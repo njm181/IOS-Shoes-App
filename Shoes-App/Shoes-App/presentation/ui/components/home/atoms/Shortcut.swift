@@ -14,6 +14,8 @@ struct Shortcut: View {
     var iconHexaColor: String
     var iconSize: CGFloat
     var shortcutBackgroundHexaColor: String
+    var width: CGFloat
+    var height: CGFloat
     
     var body: some View {
         VStack {
@@ -21,9 +23,9 @@ struct Shortcut: View {
                 .font(.system(size: iconSize))
                 .foregroundColor(Color(hex: iconHexaColor))
         }
-        .frame(width: 100, height: 100)
+        .frame(width: width, height: height)
         .background(Color(hex: shortcutBackgroundHexaColor))
-        .cornerRadius(20)
+        .cornerRadius(10)
     }
 }
 
@@ -31,7 +33,9 @@ struct Shortcut: View {
     Shortcut(
         iconName: "tag",
         iconHexaColor: "#7d3ef5",
-        iconSize: 40,
-        shortcutBackgroundHexaColor: "#f0e9fd"
+        iconSize: 20,
+        shortcutBackgroundHexaColor: "#f0e9fd",
+        width: 50,
+        height: 50
     )
 }

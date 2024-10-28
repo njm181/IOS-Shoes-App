@@ -9,21 +9,38 @@ import Foundation
 import SwiftUI
 
 struct HeaderBackground: View {
+    
+    var height: CGFloat
+    var backgroundColor: String
+    var cornerRadius: CGFloat
+    var corners: UIRectCorner = [.bottomLeft, .bottomRight]
+    var title: String
+    
+    
     var body: some View {
         VStack {
+            Text(title)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.leading)
+                .font(.title)
         }
-        .frame(
-            maxWidth: .infinity,
-            maxHeight: 150,
-            alignment: .top
+        .frame(maxWidth: .infinity)
+        .frame(height: height)
+        .background(Color(hex: backgroundColor))
+        .cornerRadius(
+            cornerRadius,
+            corners: corners
         )
-        .background(Color(hex: "#8749fe"))
-        .cornerRadius(50, corners: [.bottomLeft, .bottomRight])
-        
     }
 }
 
 
 #Preview {
-    HeaderBackground()
+    HeaderBackground(
+        height: 150,
+        backgroundColor: "#8749fe",
+        cornerRadius: 50,
+        corners: [.bottomLeft, .bottomRight],
+        title: "Shoes-App"
+    )
 }

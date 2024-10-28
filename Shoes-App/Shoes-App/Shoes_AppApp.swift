@@ -11,7 +11,8 @@ import SwiftUI
 struct Shoes_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            HomeContent()
         }
     }
 }
