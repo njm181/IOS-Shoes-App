@@ -21,9 +21,9 @@ struct PromotionCarousel: View {
             
             // list of cards
             CardPromotionCarousel(
-                iconSize: 30,
-                imageWidth: 200,
-                imageHeight: 230,
+                iconSize: 20,
+                imageWidth: 150,
+                imageHeight: 180,
                 cornerRadius: 20,
                 url: URL(string: "https://assets.adidas.com/images/w_600,f_auto,q_auto/f8bc2c70b30940a7acda118f6fdde902_9366/Zapatillas_Running_Switch_Run_Negro_IF5720_01_standard.jpg"),
                 productName: "Nike Air Max 2090",
@@ -31,7 +31,7 @@ struct PromotionCarousel: View {
             )
         }
         .padding()
-        .background(.gray)
+        .background(Color(hex: "#f5f5f5"))
         .cornerRadius(30, corners: [.topLeft, .topRight])
         
     }

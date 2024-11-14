@@ -68,7 +68,7 @@ struct HomeMainCarouselCard: View {
             maxWidth: .infinity,
             maxHeight: 250
         )
-        .background(.gray)
+        .background(.white)
         .clipShape(RoundedCorner(radius: 20))
         .padding()
         .shadow(color: .gray, radius: 5, x: 0, y: 2)

@@ -19,6 +19,10 @@ struct HomeContent: View {
             
             ShortcutHorizontalCarousel()
             
+            Spacer().frame(height: 16)
+            
+            PromotionCarousel()
+            
         }
         .ignoresSafeArea(edges: .top)
         

@@ -47,12 +47,12 @@ struct CardPromotionCarousel: View {
                         .padding(.leading, 16)
                         .lineLimit(2)
                         .multilineTextAlignment(.leading)
-                        .font(.title2)
+                        .font(.subheadline)
                 }
                 
                 HStack {
                     Text(productValue)
-                        .font(.title3)
+                        .font(.subheadline)
                         .bold()
                     
                     Spacer()
@@ -66,7 +66,7 @@ struct CardPromotionCarousel: View {
             .padding(.top)
             
         }
-        .frame(width: 220, height: 350)
+        .frame(width: 170, height: 300)
         .padding(2)
         .background(Color.white)
         .cornerRadius(20)

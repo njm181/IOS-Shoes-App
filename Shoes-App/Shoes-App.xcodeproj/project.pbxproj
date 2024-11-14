@@ -10,6 +10,8 @@
 		42708ED7EDADDC96890423C1 /* Pods_Shoes_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946A0CA33836502184C00202 /* Pods_Shoes_App.framework */; };
 		9E6B8CA32CCE6C3500118A9A /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B8CA22CCE6C3500118A9A /* HomeScene.swift */; };
 		9E6B8CA62CCE6C7100118A9A /* HomeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B8CA52CCE6C7100118A9A /* HomeContent.swift */; };
+		9E710E422CE57F4100B8E78F /* TabViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E710E412CE57F4100B8E78F /* TabViewComponent.swift */; };
+		9E710E442CE580AE00B8E78F /* TabViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E710E432CE580AE00B8E78F /* TabViewItem.swift */; };
 		9E7D1B402CC72E9400BCF5C1 /* Shoes_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D1B3F2CC72E9400BCF5C1 /* Shoes_AppApp.swift */; };
 		9E7D1B422CC72E9400BCF5C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D1B412CC72E9400BCF5C1 /* ContentView.swift */; };
 		9E7D1B442CC72E9500BCF5C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D1B432CC72E9500BCF5C1 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		946A0CA33836502184C00202 /* Pods_Shoes_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoes_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6B8CA22CCE6C3500118A9A /* HomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
 		9E6B8CA52CCE6C7100118A9A /* HomeContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContent.swift; sourceTree = "<group>"; };
+		9E710E412CE57F4100B8E78F /* TabViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewComponent.swift; sourceTree = "<group>"; };
+		9E710E432CE580AE00B8E78F /* TabViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewItem.swift; sourceTree = "<group>"; };
 		9E7D1B3C2CC72E9400BCF5C1 /* Shoes-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoes-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7D1B3F2CC72E9400BCF5C1 /* Shoes_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoes_AppApp.swift; sourceTree = "<group>"; };
 		9E7D1B412CC72E9400BCF5C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +83,15 @@
 				9E6B8CA52CCE6C7100118A9A /* HomeContent.swift */,
 			);
 			path = home;
+			sourceTree = "<group>";
+		};
+		9E710E402CE57F2F00B8E78F /* tabView */ = {
+			isa = PBXGroup;
+			children = (
+				9E710E412CE57F4100B8E78F /* TabViewComponent.swift */,
+				9E710E432CE580AE00B8E78F /* TabViewItem.swift */,
+			);
+			path = tabView;
 			sourceTree = "<group>";
 		};
 		9E7D1B332CC72E9400BCF5C1 = {
@@ -147,6 +160,7 @@
 		9E93B3182CC9B97A0003976F /* components */ = {
 			isa = PBXGroup;
 			children = (
+				9E710E402CE57F2F00B8E78F /* tabView */,
 				9EC7CCC82CCB168C001A6F08 /* home */,
 				9E93B31B2CC9C2E50003976F /* +extensions */,
 			);
@@ -296,6 +310,8 @@
 				9E93B31A2CC9B98E0003976F /* HeaderBackground.swift in Sources */,
 				9EC7CCD12CCB2E9C001A6F08 /* CardPromotionCarousel.swift in Sources */,
 				9EC7CCCF2CCB1B43001A6F08 /* HeaderPromotionCarousel.swift in Sources */,
+				9E710E442CE580AE00B8E78F /* TabViewItem.swift in Sources */,
+				9E710E422CE57F4100B8E78F /* TabViewComponent.swift in Sources */,
 				9E93B3212CC9C48D0003976F /* HomeMainCarouselCard.swift in Sources */,
 				9E7D1B402CC72E9400BCF5C1 /* Shoes_AppApp.swift in Sources */,
 				9ECC00872CCFAA0C007EE2EA /* HomeHeaderMainCarousel.swift in Sources */,
