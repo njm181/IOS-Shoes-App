@@ -13,8 +13,6 @@ struct TabViewComponent: View {
     var body: some View {
         TabView {
             NavigationStack(){
-                Text("Home view")
-                    .navigationTitle("Home")
                 HomeContent()
             }
             .tabItem {
