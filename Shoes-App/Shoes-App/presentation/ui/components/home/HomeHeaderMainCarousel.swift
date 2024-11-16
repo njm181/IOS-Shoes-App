@@ -23,13 +23,10 @@ struct HomeHeaderMainCarousel: View {
             VStack {
                 Spacer().frame(height: 100)
                 
-                HomeMainCarouselCard(
-                    productTitle: "Product Title",
-                    productName: "Product Name",
-                    productUrl: URL(string: "https://assets.adidas.com/images/w_600,f_auto,q_auto/f8bc2c70b30940a7acda118f6fdde902_9366/Zapatillas_Running_Switch_Run_Negro_IF5720_01_standard.jpg"),
-                    buttonTitle: "Button title"
-                )
-                .padding(.top, 16)
+                HomeMainCarousel()
+                    .frame(maxWidth: .infinity)
+                    .padding(.top, 16)
+                
             }
         }
     }

@@ -16,63 +16,51 @@ struct HomeMainCarouselCard: View {
     var buttonTitle: String
     
     var body: some View {
-        VStack {
-            HStack(alignment: .center) {
-                
-                ImageFromUrl(
-                    width: 180,
-                    height: 150,
-                    cornerRadius: 20,
-                    url: productUrl
-                )
-                
-                VStack(alignment: .center) {
-                    VStack(alignment: .leading) {
-                        Text(productTitle)
-                            .lineLimit(2)
-                            .multilineTextAlignment(.leading)
-                            .font(.subheadline)
-                        Text(productName)
-                            .lineLimit(2)
-                            .multilineTextAlignment(.leading)
-                            .font(.title2)
-                    }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.top, 10)
-                    
-                    Spacer()
-
-                    VStack {
-                        Button(action: {}) {
-                            Text(buttonTitle)
-                                .padding(.vertical, 8)
-                                .padding(.horizontal, 16)
-                                .foregroundColor(.white)
-                                .background(.black)
-                                .cornerRadius(10)
-                          }
-                    }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.bottom, 10)
-                }
-                .frame(maxWidth: .infinity, maxHeight: 150, alignment: .leading)
-                
-            }
-            .frame(
-                maxWidth: .infinity,
-                maxHeight: 200
+        HStack(alignment: .center) {
+            
+            ImageFromUrl(
+                width: 180,
+                height: 150,
+                cornerRadius: 20,
+                url: productUrl
             )
-            .padding()
+            
+            VStack(alignment: .center) {
+                VStack(alignment: .leading) {
+                    Text(productTitle)
+                        .lineLimit(2)
+                        .multilineTextAlignment(.leading)
+                        .font(.subheadline)
+                    Text(productName)
+                        .lineLimit(2)
+                        .multilineTextAlignment(.leading)
+                        .font(.title2)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.top, 10)
+                
+                Spacer()
+
+                VStack {
+                    Button(action: {}) {
+                        Text(buttonTitle)
+                            .padding(.vertical, 8)
+                            .padding(.horizontal, 16)
+                            .foregroundColor(.white)
+                            .background(.black)
+                            .cornerRadius(10)
+                      }
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.bottom, 10)
+            }
+            .frame(maxWidth: .infinity, maxHeight: 150, alignment: .leading)
         }
         .frame(
             maxWidth: .infinity,
-            maxHeight: 250
+            maxHeight: 200
         )
-        .background(.white)
-        .clipShape(RoundedCorner(radius: 20))
         .padding()
-        .shadow(color: .gray, radius: 5, x: 0, y: 2)
-        
     }
 }
 

@@ -42,20 +42,6 @@ struct TabViewComponent: View {
             }
             .badge("12")
             .tag(2)
-            /*TabViewItem(filter: .none)
-                .tabItem {
-                    Label("Option 1", systemImage: "person.3")
-                }
-            
-            TabViewItem(filter: .contacted)
-                .tabItem {
-                    Label("Option 2", systemImage: "checkmark.circle")
-                }
-            
-            TabViewItem(filter: .uncontacted)
-                .tabItem {
-                    Label("Option 3", systemImage: "questionmark.diamond")
-                }*/
         }
     }
 }

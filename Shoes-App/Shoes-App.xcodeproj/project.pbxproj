@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42708ED7EDADDC96890423C1 /* Pods_Shoes_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946A0CA33836502184C00202 /* Pods_Shoes_App.framework */; };
+		9E6AC7EF2CE93852004146A8 /* HomeMainCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6AC7EE2CE93852004146A8 /* HomeMainCarousel.swift */; };
 		9E6B8CA32CCE6C3500118A9A /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B8CA22CCE6C3500118A9A /* HomeScene.swift */; };
 		9E6B8CA62CCE6C7100118A9A /* HomeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B8CA52CCE6C7100118A9A /* HomeContent.swift */; };
 		9E710E422CE57F4100B8E78F /* TabViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E710E412CE57F4100B8E78F /* TabViewComponent.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		1528281BD97721BA4AA6C668 /* Pods-Shoes-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoes-App.release.xcconfig"; path = "Target Support Files/Pods-Shoes-App/Pods-Shoes-App.release.xcconfig"; sourceTree = "<group>"; };
 		946A0CA33836502184C00202 /* Pods_Shoes_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoes_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6AC7EE2CE93852004146A8 /* HomeMainCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainCarousel.swift; sourceTree = "<group>"; };
 		9E6B8CA22CCE6C3500118A9A /* HomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
 		9E6B8CA52CCE6C7100118A9A /* HomeContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContent.swift; sourceTree = "<group>"; };
 		9E710E412CE57F4100B8E78F /* TabViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewComponent.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				9EC7CCCB2CCB1A74001A6F08 /* PromotionCarousel.swift */,
 				9ECC00862CCFAA0C007EE2EA /* HomeHeaderMainCarousel.swift */,
 				9ECC00882CCFB408007EE2EA /* ShortcutHorizontalCarousel.swift */,
+				9E6AC7EE2CE93852004146A8 /* HomeMainCarousel.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				9EC7CCCF2CCB1B43001A6F08 /* HeaderPromotionCarousel.swift in Sources */,
 				9E710E422CE57F4100B8E78F /* TabViewComponent.swift in Sources */,
 				9E93B3212CC9C48D0003976F /* HomeMainCarouselCard.swift in Sources */,
+				9E6AC7EF2CE93852004146A8 /* HomeMainCarousel.swift in Sources */,
 				9E7D1B402CC72E9400BCF5C1 /* Shoes_AppApp.swift in Sources */,
 				9ECC00872CCFAA0C007EE2EA /* HomeHeaderMainCarousel.swift in Sources */,
 				9EC7CCCA2CCB16B6001A6F08 /* Shortcut.swift in Sources */,
