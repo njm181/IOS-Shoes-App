@@ -11,7 +11,9 @@ import SwiftUI
 struct HomeScene: View {
     
     var body: some View {
-        Text("Home Scene").font(.title)
+        VStack {
+            HomeContent()
+        }
     }
 }
 

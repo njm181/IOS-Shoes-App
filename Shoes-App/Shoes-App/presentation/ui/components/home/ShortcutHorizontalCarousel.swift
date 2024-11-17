@@ -22,7 +22,7 @@ struct ShortcutHorizontalCarousel: View {
             )
             Spacer()
             Shortcut(
-                iconName: "tag",
+                iconName: "percent",
                 iconHexaColor: "#7d3ef5",
                 iconSize: 30,
                 shortcutBackgroundHexaColor: "#f0e9fd",
@@ -31,7 +31,7 @@ struct ShortcutHorizontalCarousel: View {
             )
             Spacer()
             Shortcut(
-                iconName: "tag",
+                iconName: "location",
                 iconHexaColor: "#7d3ef5",
                 iconSize: 30,
                 shortcutBackgroundHexaColor: "#f0e9fd",
@@ -40,7 +40,7 @@ struct ShortcutHorizontalCarousel: View {
             )
             Spacer()
             Shortcut(
-                iconName: "tag",
+                iconName: "newspaper",
                 iconHexaColor: "#7d3ef5",
                 iconSize: 30,
                 shortcutBackgroundHexaColor: "#f0e9fd",

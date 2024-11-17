@@ -14,12 +14,12 @@ struct HeaderBackground: View {
     var backgroundColor: String
     var cornerRadius: CGFloat
     var corners: UIRectCorner = [.bottomLeft, .bottomRight]
-    var title: String
+    var title: String?
     
     
     var body: some View {
         VStack {
-            Text(title)
+            Text(title ?? "")
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.leading)
                 .font(.title)

@@ -13,35 +13,45 @@ struct TabViewComponent: View {
     var body: some View {
         TabView {
             NavigationStack(){
-                HomeContent()
+                HomeScene()
             }
             .tabItem {
-                Text("tabItem Home view")
+                Text("Home")
                 Image(systemName: "house.fill")
                     .renderingMode(.template)
             }
             .tag(0)
             
             NavigationStack() {
-                Text("Profile view")
-                    .navigationTitle("Profile")
+                Text("Cart view")
+                    .navigationTitle("Cart title")
             }
             .tabItem {
-                Label("tabItem Profile", systemImage: "person.fill")
+                Label("Cart", systemImage: "cart.fill")
             }
             .tag(1)
             
             NavigationStack() {
-                Text("About view")
-                    .navigationTitle("About")
+                Text("Message view")
+                    .navigationTitle("Message title")
                 
             }
             .tabItem {
-                Text("tabItem About view")
-                Image(systemName: "info.circle")
+                Text("Message")
+                Image(systemName: "message.fill")
             }
-            .badge("12")
             .tag(2)
+                    
+            NavigationStack() {
+                Text("User view")
+                    .navigationTitle("User Profile title")
+                
+            }
+            .tabItem {
+                Text("User")
+                Image(systemName: "person.fill")
+            }
+            .tag(3)
         }
     }
 }
