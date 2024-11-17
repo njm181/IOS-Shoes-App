@@ -26,8 +26,17 @@ struct DetailContent : View {
             
             DetailProductSize()
             
+            Spacer().frame(height: 8)
+            
+            DetailProductDescription()
+            
+            Spacer().frame(height: 8)
+            
+            DetailMarketButtons()
+            
         }
         .ignoresSafeArea(edges: .top)
+
     }
 }
 
