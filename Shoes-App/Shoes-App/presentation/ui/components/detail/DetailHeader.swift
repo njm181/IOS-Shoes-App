@@ -19,12 +19,12 @@ struct DetailHeader : View {
             
             VStack {
                 ImageFromUrl(
-                    width: 350,
-                    height: 300,
+                    width: 330,
+                    height: 280,
                     cornerRadius: 16,
                     url: URL(string: "https://assets.adidas.com/images/w_600,f_auto,q_auto/f8bc2c70b30940a7acda118f6fdde902_9366/Zapatillas_Running_Switch_Run_Negro_IF5720_01_standard.jpg")
                 )
-                .padding(.top, 24)
+                .padding(.top, 32)
                 .frame(maxWidth: .infinity)
             }
         }

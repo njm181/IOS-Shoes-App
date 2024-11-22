@@ -42,17 +42,19 @@ struct HomeMainCarouselCard: View {
                 Spacer()
 
                 VStack {
-                    Button(action: {}) {
+                    NavigationLink {
+                        DetailScene(viewModel: DetailViewModel())
+                    } label: {
                         Text(buttonTitle)
                             .padding(.vertical, 8)
                             .padding(.horizontal, 16)
                             .foregroundColor(.white)
                             .background(.black)
                             .cornerRadius(10)
-                      }
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.bottom, 10)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.bottom, 10)
+                    }
             }
             .frame(maxWidth: .infinity, maxHeight: 150, alignment: .leading)
         }

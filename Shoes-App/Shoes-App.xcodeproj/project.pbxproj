@@ -14,6 +14,8 @@
 		9E3D37652CE99D9900BB6B58 /* DetailProductOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D37642CE99D9900BB6B58 /* DetailProductOptions.swift */; };
 		9E3D37672CE99F3C00BB6B58 /* DetailProductSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D37662CE99F3C00BB6B58 /* DetailProductSize.swift */; };
 		9E3D37692CE9A06800BB6B58 /* SizeColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D37682CE9A06800BB6B58 /* SizeColumns.swift */; };
+		9E6A02ED2CEE07BD009B5188 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6A02EC2CEE07BD009B5188 /* HomeViewModel.swift */; };
+		9E6A02EF2CEE07C7009B5188 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6A02EE2CEE07C7009B5188 /* DetailViewModel.swift */; };
 		9E6AC7EF2CE93852004146A8 /* HomeMainCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6AC7EE2CE93852004146A8 /* HomeMainCarousel.swift */; };
 		9E6B8CA32CCE6C3500118A9A /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B8CA22CCE6C3500118A9A /* HomeScene.swift */; };
 		9E6B8CA62CCE6C7100118A9A /* HomeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B8CA52CCE6C7100118A9A /* HomeContent.swift */; };
@@ -47,6 +49,8 @@
 		9E3D37642CE99D9900BB6B58 /* DetailProductOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProductOptions.swift; sourceTree = "<group>"; };
 		9E3D37662CE99F3C00BB6B58 /* DetailProductSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProductSize.swift; sourceTree = "<group>"; };
 		9E3D37682CE9A06800BB6B58 /* SizeColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeColumns.swift; sourceTree = "<group>"; };
+		9E6A02EC2CEE07BD009B5188 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9E6A02EE2CEE07C7009B5188 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		9E6AC7EE2CE93852004146A8 /* HomeMainCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainCarousel.swift; sourceTree = "<group>"; };
 		9E6B8CA22CCE6C3500118A9A /* HomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
 		9E6B8CA52CCE6C7100118A9A /* HomeContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContent.swift; sourceTree = "<group>"; };
@@ -92,6 +96,15 @@
 				1528281BD97721BA4AA6C668 /* Pods-Shoes-App.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E6A02EB2CEE07A3009B5188 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9E6A02EC2CEE07BD009B5188 /* HomeViewModel.swift */,
+				9E6A02EE2CEE07C7009B5188 /* DetailViewModel.swift */,
+			);
+			path = viewModels;
 			sourceTree = "<group>";
 		};
 		9E6B8CA42CCE6C6500118A9A /* home */ = {
@@ -152,6 +165,7 @@
 		9E93B3152CC9B9540003976F /* presentation */ = {
 			isa = PBXGroup;
 			children = (
+				9E6A02EB2CEE07A3009B5188 /* viewModels */,
 				9E93B3172CC9B96D0003976F /* ui */,
 				9E93B3162CC9B95A0003976F /* scenes */,
 			);
@@ -365,6 +379,7 @@
 				9E93B31A2CC9B98E0003976F /* HeaderBackground.swift in Sources */,
 				9EC7CCD12CCB2E9C001A6F08 /* CardPromotionCarousel.swift in Sources */,
 				9EC7CCCF2CCB1B43001A6F08 /* HeaderPromotionCarousel.swift in Sources */,
+				9E6A02ED2CEE07BD009B5188 /* HomeViewModel.swift in Sources */,
 				9E710E422CE57F4100B8E78F /* TabViewComponent.swift in Sources */,
 				9E93B3212CC9C48D0003976F /* HomeMainCarouselCard.swift in Sources */,
 				9E6AC7EF2CE93852004146A8 /* HomeMainCarousel.swift in Sources */,
@@ -377,6 +392,7 @@
 				9E8E5FFE2CEA1A6C007C405F /* DetailProductDescription.swift in Sources */,
 				9EC7CCC72CCB12B6001A6F08 /* ImageFromUrl.swift in Sources */,
 				9E93B31D2CC9C2FE0003976F /* ExtensionColor.swift in Sources */,
+				9E6A02EF2CEE07C7009B5188 /* DetailViewModel.swift in Sources */,
 				9E8E60002CEA3575007C405F /* DetailMarketButtons.swift in Sources */,
 				9ECC00892CCFB408007EE2EA /* ShortcutHorizontalCarousel.swift in Sources */,
 				9E3D37672CE99F3C00BB6B58 /* DetailProductSize.swift in Sources */,

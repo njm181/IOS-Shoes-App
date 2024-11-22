@@ -7,7 +7,8 @@
 
 import Foundation
 import SwiftUI
-
+// MARK -  lo siguiente sera crear viewmodels
+// para las ui y desde ahi proveer mediante data hardcoded respuestas para usar Combine
 struct HomeContent: View {
     var body: some View {
 
